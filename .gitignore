@@ -1,0 +1,74 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Build directories
+/build/
+bin/
+dist/
+
+# Vendor directories
+/vendor/
+
+# Dependency directories
+/go/
+.gopath/
+
+# Go build artifacts
+*.a
+*.o
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Coverage files
+*.cover
+*.cov
+*.coverage
+*.coverprofile
+coverage.out
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Testing cache and output
+*.test
+*.test.out
+
+# Module cache
+go.sum
+
+# Package-lock files
+package-lock.json
+
+# Go-generated files (e.g., from stringer or other code generation tools)
+*.gen.go
+
+# Ginkgo test suite artifacts
+reports/
+
+# Docker-related files
+docker-compose.override.yml
+.dockerignore
